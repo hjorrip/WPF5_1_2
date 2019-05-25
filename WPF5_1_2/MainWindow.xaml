@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF5_1_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF5_1_2"
+        mc:Ignorable="d"
+        Title="NTV skráningarkerfi" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Menu Height="Auto" VerticalAlignment="Top">
+            <MenuItem Header="Skrá">
+                <MenuItem Header="Hætta" Click="menu_QuitClick"/>
+            </MenuItem>
+            <MenuItem Header="Nýskrá">
+                <MenuItem Header="Námskeið..." Click="menu_NewCourseClick"/>
+                <MenuItem Header="Nemanda..." Click="menu_NewStudentClick"/>
+            </MenuItem>
+            <MenuItem Header="Breyta">
+                <MenuItem Header="Námskeiði..." Click="menu_ChangeCourseClick"/>
+                <MenuItem Header="Nemanda..." Click="menu_ChangeStudentClick"/>
+            </MenuItem>
+        </Menu>
+        <ComboBox ItemsSource="{Binding}" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="118,69,0,0" VerticalAlignment="Top" Width="156"/>
+        <ListBox ItemsSource="{Binding Students}" DisplayMemberPath="FullName" HorizontalAlignment="Left" Height="150" Margin="118,143,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBlock HorizontalAlignment="Left" Margin="118,107,0,0" TextWrapping="Wrap" Text="{Binding CourseType}" VerticalAlignment="Top" Width="156"/>
+
+    </Grid>
+</Window>
