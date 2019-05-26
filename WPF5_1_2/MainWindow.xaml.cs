@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LiveCharts;
+using LiveCharts.Wpf;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -43,8 +45,47 @@ namespace WPF5_1_2
 
             view.Source = SharedContext.courses;
 
+            LoadChart();
+
             this.DataContext = view;
         }
+
+
+
+        private void LoadChart()
+        {
+
+
+
+            chColumnChart.SeriesCollection.Add(
+                new ColumnSeries
+                {
+                    Title = "Forritun",
+                    Values = new ChartValues<double> {  }
+                }
+                );
+
+
+            double programmers = (Double)SharedContext.courses.Where(x => x.CourseType.Name.Equals("Forritun")).Count();
+
+            chColumnChart.SeriesCollection[0].Values.Add(programmers);
+
+
+            chColumnChart.SeriesCollection.Add(
+                new ColumnSeries
+                {
+                    Title = "Kerfisstjórn",
+                    Values = new ChartValues<double> { }
+                }
+                
+                );
+
+            double systemEngineers = (Double)SharedContext.courses.Where(x => x.CourseType.Name.Equals("Kerfisstjórn")).Count();
+            chColumnChart.SeriesCollection[1].Values.Add(systemEngineers);
+
+
+        }
+
 
         private void menu_QuitClick(object sender, RoutedEventArgs e)
         {

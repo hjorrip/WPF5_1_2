@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\App.xaml
-5-770323205
+6-1699290802
 
-16-1519251747
-161084065264
-MainWindow.xaml;Windows\ChangeCourseWindow.xaml;Windows\ChangeStudentWindow.xaml;Windows\NewCourseWindow.xaml;Windows\NewStudentWindow.xaml;
+17-1526905075
+1834354026
+MainWindow.xaml;UserControls\BasicColumn.xaml;Windows\ChangeCourseWindow.xaml;Windows\ChangeStudentWindow.xaml;Windows\NewCourseWindow.xaml;Windows\NewStudentWindow.xaml;
 
 True
 

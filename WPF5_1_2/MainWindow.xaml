@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF5_1_2"
+        xmlns:chart="clr-namespace:WPF5_1_2.UserControls"
         mc:Ignorable="d"
         Title="NTV skráningarkerfi" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
@@ -23,6 +24,6 @@
         <ComboBox ItemsSource="{Binding}" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="118,69,0,0" VerticalAlignment="Top" Width="156"/>
         <ListBox ItemsSource="{Binding Students}" DisplayMemberPath="FullName" HorizontalAlignment="Left" Height="150" Margin="118,143,0,0" VerticalAlignment="Top" Width="156"/>
         <TextBlock HorizontalAlignment="Left" Margin="118,107,0,0" TextWrapping="Wrap" Text="{Binding CourseType}" VerticalAlignment="Top" Width="156"/>
-
+        <chart:BasicColumn x:Name="chColumnChart" Margin="357,69,37,126"/>
     </Grid>
 </Window>

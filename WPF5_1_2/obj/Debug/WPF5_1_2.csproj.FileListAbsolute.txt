@@ -26,3 +26,12 @@ C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\Windows\ChangeCourseWi
 C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\Windows\ChangeStudentWindow.baml
 C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\Windows\NewCourseWindow.baml
 C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\Windows\NewStudentWindow.baml
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.dll
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.pdb
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.xml
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\UserControls\BasicColumn.g.cs
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hjorrip\source\repos\WPF5_1_2\WPF5_1_2\obj\Debug\UserControls\BasicColumn.baml
